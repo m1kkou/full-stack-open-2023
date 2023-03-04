@@ -32,6 +32,6 @@ sequenceDiagram;
     server-->>browser: [..., {content: "Dippadaa dippadii", date: "2023-03-04T06:34:32.997Z"} ];
     deactivate server;
 
-    Note right of browser: The data .json now holds the added note
+    Note right of browser: The browser executes the callback function that renders the notes. The data .json now holds the added note.
 
  ```
